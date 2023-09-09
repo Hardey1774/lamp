@@ -1,6 +1,6 @@
 # lamp
 Installation of LAMP and web application
-#!/bin/bash
+[#!/bin/bash
 if [ $(id -u) -ne 0 ];
 then echo 'Please run with sudo or as root.'
 exit 1
@@ -56,5 +56,5 @@ dbpass=wordpress123
 # Install wordpress
 /usr/local/bin/wp core install --url=http://10.23.45.60 \
 --title="Blog" --admin_user="admin" --admin_password="admin" \
---admin_email="vagrant@localhost.localdomain"
+--admin_email="vagrant@localhost.localdomain"](https://us04web.zoom.us/j/74173536430?pwd=ZYeyGTbQaJ4LLW7wV116tR8GukmG8a.1)https://us04web.zoom.us/j/74173536430?pwd=ZYeyGTbQaJ4LLW7wV116tR8GukmG8a.1
 
